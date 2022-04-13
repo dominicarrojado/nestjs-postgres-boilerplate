@@ -1,5 +1,7 @@
 # Nest (NestJS) Framework Boilerplate
 
+[![CI/CD](https://github.com/dominicarrojado/nestjs-postgres-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nestjs-postgres-boilerplate/actions/workflows/ci.yml)
+
 A local development setup or boilerplate for [Nest.js framework](https://nestjs.com/) with [PostgreSQL](https://www.postgresql.org/) and [pgAdmin4](https://www.pgadmin.org/) using [Docker Compose](https://docs.docker.com/compose/).
 
 ## Quick Start
