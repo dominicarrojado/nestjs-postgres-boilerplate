@@ -21,8 +21,10 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "docker-compose:dev": "docker-compose up --build",
     "docker-compose:test": "docker-compose -f docker-compose.yml -f test.yml up --build --exit-code-from app",
+    "docker-compose:test:cov": "docker-compose -f docker-compose.yml -f test-cov.yml up --build --exit-code-from app",
     "docker-compose:test:watch": "docker-compose -f docker-compose.yml -f test-watch.yml up --build",
-    "docker-compose:test:cov": "docker-compose -f docker-compose.yml -f test-cov.yml up --build"
+    "docker-compose:prod": "docker-compose -f docker-compose.yml -f production.yml up --build",
+    "docker-compose:prod:build-only": "docker-compose -f docker-compose.yml -f production.yml build"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
