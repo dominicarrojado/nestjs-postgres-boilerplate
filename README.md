@@ -10,13 +10,13 @@ A local development setup or boilerplate for [Nest.js framework](https://nestjs.
 4. Clone the app:
 
 ```bash
-git clone git@github.com:dominicarrojado/nest-nodejs-framework-boilerplate.git
+git clone git@github.com:dominicarrojado/nestjs-postgres-boilerplate.git
 ```
 
 5. Install npm packages - _for IDE type checking_.
 
 ```bash
-cd nest-nodejs-framework-boilerplate
+cd nestjs-postgres-boilerplate
 yarn install --frozen-lockfile
 ```
 
