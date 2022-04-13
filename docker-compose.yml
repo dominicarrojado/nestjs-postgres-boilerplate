@@ -11,6 +11,8 @@ services:
       - ./src:/app/src
     links:
       - db
+    environment:
+      STAGE: dev
 
   db:
     image: postgres
