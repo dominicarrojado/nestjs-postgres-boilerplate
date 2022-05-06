@@ -28,7 +28,7 @@ yarn install --frozen-lockfile
 yarn docker-compose:dev
 ```
 
-7. Access the app at http://localhost:5000.
+7. Access the app at http://localhost:3000.
 8. Make file changes and it will automatically rebuild the app.
 
 ## Running All Tests
