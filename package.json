@@ -19,11 +19,11 @@
     "test:cov": "cross-env STAGE=dev jest --runInBand --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "docker-compose:dev": "docker-compose up --build",
+    "docker-compose:dev": "docker-compose -f docker-compose.yml -f dbadmin.yml up --build",
     "docker-compose:test": "docker-compose -f docker-compose.yml -f test.yml up --build --exit-code-from app",
     "docker-compose:test:cov": "docker-compose -f docker-compose.yml -f test-cov.yml up --build --exit-code-from app",
     "docker-compose:test:watch": "docker-compose -f docker-compose.yml -f test-watch.yml up --build",
-    "docker-compose:prod": "docker-compose -f docker-compose.yml -f production.yml up --build",
+    "docker-compose:prod": "docker-compose -f docker-compose.yml -f production.yml -f dbadmin.yml up --build",
     "docker-compose:prod:build-only": "docker-compose -f docker-compose.yml -f production.yml build"
   },
   "dependencies": {

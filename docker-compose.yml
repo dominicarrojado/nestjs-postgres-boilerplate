@@ -11,8 +11,6 @@ services:
       - ./src:/app/src
     depends_on:
       - db
-    environment:
-      STAGE: dev
 
   db:
     image: postgres
@@ -21,12 +19,3 @@ services:
       - 5432:5432
     environment:
       POSTGRES_PASSWORD: postgres
-
-  dbadmin:
-    image: dpage/pgadmin4
-    restart: always
-    ports:
-      - 5050:80
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: pgadmin4
