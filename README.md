@@ -1,4 +1,4 @@
-# Nest (NestJS) Framework Boilerplate
+# NestJS Framework Boilerplate (PostgreSQL)
 
 [![CI/CD](https://github.com/dominicarrojado/nestjs-postgres-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nestjs-postgres-boilerplate/actions/workflows/ci.yml)
 
