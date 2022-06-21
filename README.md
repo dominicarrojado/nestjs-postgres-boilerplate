@@ -8,7 +8,7 @@ A local development setup or boilerplate for [Nest.js framework](https://nestjs.
 
 1. Install [Node.js](https://nodejs.org/en/download/) - _for IDE type checking_.
 2. Install [Yarn](https://yarnpkg.com/lang/en/docs/install/) - _for IDE type checking_.
-3. Install [Docker Compose](https://docs.docker.com/compose/install/).
+3. Install [Docker Compose](https://docs.docker.com/compose/install/) and make sure it is running in the system background.
 4. Clone the app:
 
 ```bash
